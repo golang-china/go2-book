@@ -1,0 +1,20 @@
+{
+	"gitbook": "3.x",
+	"title": "Go2编程指南",
+	"description": "Go2编程指南",
+	"language": "zh-hans",
+
+	"structure": {
+		"readme": "preface.md"
+	},
+
+	"pluginsConfig": {
+		"theme-default": {
+			"showLevel": false
+		}
+	},
+
+	"plugins": [
+		"-search"
+	]
+}
