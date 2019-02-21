@@ -10,6 +10,8 @@
 ## 在线阅读
 
 - [SUMMARY.md](SUMMARY.md)
+- https://chai2010.cn/go2-book/
+
 
 ## 版权声明
 
