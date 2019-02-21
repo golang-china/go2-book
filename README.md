@@ -20,7 +20,7 @@
 
 ## 相关报告
 
-1. [GIAC: 2018 - Go 语言将要走向何方？(PDF)](https://chai2010.cn/static-public/talks/giac2018-go-talk.pdf) 上海·GIAC全球互联网架构大会 2018/11/23
+1. [GIAC: 2018 - Go 语言将要走向何方？(PDF)](https://chai2010.cn/static-public/talks/giac2018-go-talk.pdf) - [上海·GIAC全球互联网架构大会](http://2018.thegiac.com/detail.php?id=13467) 2018/11/23
 
 
 ## 版权声明
