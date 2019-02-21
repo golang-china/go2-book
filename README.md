@@ -1,5 +1,10 @@
 # Go2编程指南
 
+*推广: [《WebAssembly标准入门》开始预售了，欢迎关注！](https://github.com/chai2010/awesome-wasm-zh/blob/master/webassembly-primer.md)([京东购买](https://item.jd.com/12499372.html))*
+
+
+----
+
 本书重点讲解Go2新特性，以及Go1教程中较少涉及的特性。本书适合对Go语言有一定基础的用户学习。
 
 ![](cover.png)
