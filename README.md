@@ -13,6 +13,11 @@
 - https://chai2010.cn/go2-book/
 
 
+## 相关报告
+
+1. [GIAC: 2018 - Go 语言将要走向何方？](https://github.com/chai2010/awesome-go-zh/blob/master/chai2010/giac2018) - [chai2010](https://github.com/chai2010/awesome-go-zh/tree/master/chai2010) 上海·GIAC全球互联网架构大会 2018/11/23
+
+
 ## 版权声明
 
 自有版权，严禁任何使用。
