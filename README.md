@@ -10,7 +10,8 @@
 ![](cover.png)
 
 - 作者：柴树杉，Github [@chai2010](https://github.com/chai2010)，Twitter [@chaishushan](https://twitter.com/chaishushan)
-
+- 网址：https://github.com/chai2010/go2-book
+- Star历史：https://starcharts.herokuapp.com/chai2010/go2-book.svg
 
 ## 在线阅读
 
