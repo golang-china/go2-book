@@ -18,6 +18,14 @@
 
 严禁任何商业行为使用或引用该文档的全部或部分内容！
 
+----
+
+## 捐助支持
+
+| 支付宝 | 微信 |
+|:-----:|:-----:|
+|![alipay](images/donate-alipay-github-chai2010.jpg)|![weixin](images/donate-weixin-github-chai2010.jpg)|
+
 -----
 
 # 前言

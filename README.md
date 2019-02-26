@@ -32,3 +32,10 @@
 
 欢迎大家提供建议！
 
+----
+
+## 捐助支持
+
+| 支付宝 | 微信 |
+|:-----:|:-----:|
+|![alipay](images/donate-alipay-github-chai2010.jpg)|![weixin](images/donate-weixin-github-chai2010.jpg)|
