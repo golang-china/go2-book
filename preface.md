@@ -24,7 +24,7 @@
 
 | 支付宝 | 微信 |
 |:-----:|:-----:|
-|![alipay](images/donate-alipay-github-chai2010.jpg)|![weixin](images/donate-weixin-github-chai2010.jpg)|
+|![alipay](images/donate-alipay-github-chai2010-20yuan.jpg)|![weixin](images/donate-weixin-github-chai2010-20yuan.jpg)|
 
 -----
 
