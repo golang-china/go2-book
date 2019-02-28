@@ -1,0 +1,390 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第2章 模块化 · Go2编程指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ch2-1.html" />
+    
+    
+    <link rel="prev" href="../ch1/ch1-4.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../ch1/readme.html">
+            
+                <a href="../ch1/readme.html">
+            
+                    
+                    第1章 语法变迁
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../ch1/ch1-1.html">
+            
+                <a href="../ch1/ch1-1.html">
+            
+                    
+                    1.1 Go1的诺言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../ch1/ch1-2.html">
+            
+                <a href="../ch1/ch1-2.html">
+            
+                    
+                    1.2 Go1到Go1.10
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../ch1/ch1-3.html">
+            
+                <a href="../ch1/ch1-3.html">
+            
+                    
+                    1.3 Go1.10过渡到Go2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../ch1/ch1-4.html">
+            
+                <a href="../ch1/ch1-4.html">
+            
+                    
+                    1.4 Go2诞生
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="readme.html">
+            
+                <a href="readme.html">
+            
+                    
+                    第2章 模块化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="ch2-1.html">
+            
+                <a href="ch2-1.html">
+            
+                    
+                    2.1 Go1的包机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="ch2-2.html">
+            
+                <a href="ch2-2.html">
+            
+                    
+                    2.2 基于vendor的版本管理(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="ch2-3.html">
+            
+                <a href="ch2-3.html">
+            
+                    
+                    2.3 模块的设计⽬标(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="ch2-4.html">
+            
+                <a href="ch2-4.html">
+            
+                    
+                    2.4 模块快速⼊⻔(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="ch2-5.html">
+            
+                <a href="ch2-5.html">
+            
+                    
+                    2.5 子模块和多版本共存(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="ch2-6.html">
+            
+                <a href="ch2-6.html">
+            
+                    
+                    2.6 镜像和私有仓库(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="ch2-7.html">
+            
+                <a href="ch2-7.html">
+            
+                    
+                    2.7 模块化实践中的一些问题(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ch3/readme.html">
+            
+                <a href="../ch3/readme.html">
+            
+                    
+                    第3章 错误处理(TODO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第2章 模块化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;2&#x7AE0;-&#x6A21;&#x5757;&#x5316;">&#x7B2C;2&#x7AE0; &#x6A21;&#x5757;&#x5316;</h1>
+<p>&#x6A21;&#x5757;&#x5316;&#x4E5F;&#x79F0;&#x4E3A;&#x5305;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;&#xFF0C;&#x662F;&#x7BA1;&#x7406;&#x4EFB;&#x4F55;&#x5927;&#x578B;&#x5DE5;&#x7A0B;&#x5FC5;&#x5907;&#x7684;&#x5DE5;&#x5177;&#x3002;Go&#x8BED;&#x8A00;&#x53D1;&#x5E03;&#x5341;&#x5E74;&#x6765;&#x4E00;&#x76F4;&#x7F3A;&#x4E4F;&#x5B98;&#x65B9;&#x7684;&#x6A21;&#x5757;&#x5316;&#x5DE5;&#x5177;&#x3002;&#x540C;&#x6837;&#x5728;2018&#x5E74;&#xFF0C;&#x4F5C;&#x4E3A;Go&#x8BED;&#x8A00;&#x56E2;&#x961F;&#x7684;&#x6280;&#x672F;&#x9886;&#x5BFC;&#x4EBA;Russ Cox&#x7EC8;&#x4E8E;&#x51FA;&#x624B;&#xFF0C;&#x91CD;&#x65B0;&#x53D1;&#x660E;&#x4E86;&#x79F0;&#x4E3A;&#x6700;&#x5C0F;&#x7248;&#x672C;&#x9009;&#x62E9;&#x7684;&#x5305;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;&#x7684;&#x89C4;&#x5219;&#x5E76;&#x63D0;&#x4EA4;&#x4E86;&#x63D0;&#x6848;&#x3002;&#x6A21;&#x5757;&#x7279;&#x6027;&#x5DF2;&#x7ECF;&#x88AB;&#x5B9E;&#x9A8C;&#x6027;&#x5730;&#x96C6;&#x6210;&#x5230;Go1.11&#x4E2D;&#xFF0C;&#x5E76;&#x5C06;&#x5728;&#x540E;&#x7EED;&#x7248;&#x672C;&#x4E2D;&#x9010;&#x6E10;&#x8F6C;&#x5316;&#x4E3A;&#x6B63;&#x5F0F;&#x7279;&#x6027;&#x3002;&#x6A21;&#x5757;&#x5316;&#x7684;&#x7279;&#x6027;&#x5C06;&#x5F7B;&#x5E95;&#x89E3;&#x51B3;&#x5927;&#x578B;Go&#x8BED;&#x8A00;&#x5DE5;&#x7A0B;&#x7684;&#x7BA1;&#x7406;&#x95EE;&#x9898;&#xFF0C;&#x81F3;&#x6B64;Go1&#x9664;&#x4E86;&#x7F3A;&#x5C11;&#x6CDB;&#x578B;&#x7B49;&#x7279;&#x6027;&#x5DF2;&#x7ECF;&#x8FD1;&#x4E4E;&#x5B8C;&#x7F8E;&#x3002;&#x672C;&#x7AE0;&#x8BA8;&#x8BBA;&#x6A21;&#x5757;&#x76F8;&#x5173;&#x7684;&#x4F7F;&#x7528;&#x3002;</p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ch1/ch1-4.html" class="navigation navigation-prev " aria-label="Previous page: 1.4 Go2诞生">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ch2-1.html" class="navigation navigation-next " aria-label="Next page: 2.1 Go1的包机制">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第2章 模块化","level":"1.3","depth":1,"next":{"title":"2.1 Go1的包机制","level":"1.3.1","depth":2,"path":"ch2/ch2-1.md","ref":"ch2/ch2-1.md","articles":[]},"previous":{"title":"1.4 Go2诞生","level":"1.2.4","depth":2,"path":"ch1/ch1-4.md","ref":"ch1/ch1-4.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"highlight":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"preface.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Go2编程指南","language":"zh-hans","gitbook":"3.x","description":"Go2编程指南"},"file":{"path":"ch2/readme.md","mtime":"2019-02-28T02:38:03.754Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-28T08:36:09.389Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
