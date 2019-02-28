@@ -6,7 +6,7 @@
   * [1.3 Go1.10过渡到Go2](ch1/ch1-3.md)
   * [1.4 Go2诞生](ch1/ch1-4.md)
 * [第2章 模块化](ch2/readme.md)
-  * [2.1 Go1的包机制(TODO)](ch2/ch2-1.md)
+  * [2.1 Go1的包机制](ch2/ch2-1.md)
   * [2.2 基于vendor的版本管理(TODO)](ch2/ch2-2.md)
   * [2.3 模块的设计⽬标(TODO)](ch2/ch2-3.md)
   * [2.4 模块快速⼊⻔(TODO)](ch2/ch2-4.md)
