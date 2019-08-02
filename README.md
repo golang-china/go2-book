@@ -1,5 +1,6 @@
 # Go2编程指南
 
+*QQ群：102319854（中国最早的Go语言QQ群）*
 
 *推广: [《Go语言高级编程》已经正式出版，欢迎购买！](https://www.epubit.com/book/detail/40090)([京东购买](https://item.m.jd.com/product/12647494.html))*
 
@@ -30,7 +31,7 @@ https://study.163.com/provider/480000001914454/index.htm
 
 ## 加入QQ群：102319854
 
-中国第一个Go语言QQ群
+中国最早的Go语言QQ群
 
 ## 关注微信公众号(光谷码农/guanggu-coder)
 
