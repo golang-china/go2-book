@@ -1,14 +1,9 @@
-# Go2编程指南
-
-*QQ群：102319854（中国最早的Go语言QQ群）*
-
-*推广: [《Go语言高级编程》已经正式出版，欢迎购买！](https://www.epubit.com/book/detail/40090)([京东购买](https://item.m.jd.com/product/12647494.html))*
-
-*推广: [《WebAssembly标准入门》开始预售了，欢迎关注！](https://github.com/chai2010/awesome-wasm-zh/blob/master/webassembly-primer.md)([京东购买](https://item.jd.com/12499372.html))*
-
-*推广: 欢迎关注 [网易云课堂·光谷码农课堂](https://study.163.com/provider/480000001914454/index.htm)*
+- *赞助 BTC: 1Cbd6oGAUUyBi7X7MaR4np4nTmQZXVgkCW*
+- *赞助 ETH: 0x623A3C3a72186A6336C79b18Ac1eD36e1c71A8a6*
 
 ----
+
+# Go2编程指南
 
 本书重点讲解Go2新特性，以及Go1教程中较少涉及的特性。本书适合对Go语言有一定基础的用户学习。对于刚学习Go语言的读者，建议先从[《Go语言圣经》](https://github.com/golang-china/gopl-zh)开始系统学习Go语言的基础知识。如果希望了解Go语言CGO或汇编语言的细节，可以参考[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)。
 
@@ -51,11 +46,3 @@ https://study.163.com/provider/480000001914454/index.htm
 严禁任何商业行为使用或引用该文档的全部或部分内容！
 
 欢迎大家提供建议！
-
-----
-
-## 捐助支持
-
-| 支付宝 | 微信 |
-|:-----:|:-----:|
-|![alipay](images/donate-alipay-github-chai2010-20yuan.jpg)|![weixin](images/donate-weixin-github-chai2010-20yuan.jpg)|
