@@ -6,7 +6,7 @@
 
 # Go2编程指南
 
-本书重点讲解Go2新特性，以及Go1教程中较少涉及的特性。本书适合对Go语言有一定基础的用户学习。对于刚学习Go语言的读者，建议先从[《Go语言圣经》](https://github.com/golang-china/gopl-zh)开始系统学习Go语言的基础知识。如果希望了解Go语言CGO或汇编语言的细节，可以参考[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)。
+本书重点讲解Go2新特性，以及Go1教程中较少涉及的特性。本书适合对Go语言有一定基础的用户学习。对于刚学习Go语言的读者，建议先从[《Go语言圣经》](https://github.com/golang-china/gopl-zh)开始系统学习Go语言的基础知识。如果希望了解Go语言CGO或汇编语言的细节，可以参考[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)。如果希望深入学习Go语言语法树结构，可以参考[《Go语法树入门——开启自制编程语言和编译器之旅》](https://github.com/chai2010/go-ast-book)。
 
 ![](cover.png)
 
