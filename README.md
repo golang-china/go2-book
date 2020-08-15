@@ -1,10 +1,14 @@
+# Go2编程指南
+
 - *Go语言QQ群: 102319854, 1055927514*
 - *光谷码农课堂: https://study.163.com/provider/480000001914454/index.htm*
 - *凹语言(凹读音“Wa”)(The Wa Programming Language): https://github.com/wa-lang/wa*
 
 ----
 
-# Go2编程指南
+**蚂蚁金服招聘云原生方向和编程语言方向岗位(杭州/P7)：云原生方向要求熟悉k8s配套工具，如kubectl、kustomize、kubebuilder，operator；编程语言方向要求对语言对语言解释器（如py/js/lua/wasm等）、工具链、配套SDK有一定兴趣和实践经验。欢迎各位同学咨询或推荐（推荐成功独享全额推荐红包）。联系方式 chaishushan@gmail.com, shushan.css@alibaba-inc.com**
+
+----
 
 本书重点讲解Go2新特性，以及Go1教程中较少涉及的特性。本书适合对Go语言有一定基础的用户学习。对于刚学习Go语言的读者，建议先从[《Go语言圣经》](https://github.com/golang-china/gopl-zh)开始系统学习Go语言的基础知识。如果希望了解Go语言CGO或汇编语言的细节，可以参考[《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)。如果希望深入学习Go语言语法树结构，可以参考[《Go语法树入门——开启自制编程语言和编译器之旅》](https://github.com/chai2010/go-ast-book)。
 
